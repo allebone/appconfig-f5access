@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+<dict>
+         <!-- This ManagedAppConfigurationVersion key has the value of the -->
+         <key>ManagedAppConfigurationVersion</key>
+         <string>2</string>
+         <!-- deviceSerialNumber to Serial Number Field -->
+         <key>deviceSerialNumber</key>
+         <integer>%deviceSerialNumber%</integer>
+         <!-- The plist then has a key-value pair for each configuration setting. -->
+         <key>noLoopbackOta</key>
+         <true/>
+         <!-- The name of the key corresponds to the keyName attribute of a key element -->
+         <key>disableUkmBounce</key>
+         <false/>
+         <!-- in the XML document. -->
+         <key>enableManualBounce</key>
+         <false/>
+         <!-- in the XML document. -->
+         <key>requireUserPresence</key>
+         <false/>
+         <!-- in the XML document. -->
+         <key>usePersistentTokens</key>
+         <true/>
+         <!-- in the XML document. -->
+         <key>pivAuthenticationToken</key>
+         <true/>
+         <!-- in the XML document. -->
+         <key>digitalSignatureToken</key>
+         <false/>
+         <!-- in the XML document. -->
+         <key>decryptionToken</key>
+         <false/>
+         <!-- in the XML document. -->
+         <key>noFilterForTokens</key>
+         <false/>
+     </dict>
+ </plist>
