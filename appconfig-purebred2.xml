@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
- "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
- <plist version="1.0">
-<dict>
-         <!-- This ManagedAppConfigurationVersion key has the value of the -->
-         <key>ManagedAppConfigurationVersion</key>
-         <string>2</string>
-         <!-- deviceSerialNumber to Serial Number Field -->
-         <key>MdmAssignedid</key>
-         <string>%csn%</string>
-         <!-- The plist then has a key-value pair for each configuration setting. -->
-         <key>Mdminstanceld</key>
-         <string>1180218</string>
-         <!-- The name of the key corresponds to the keyName attribute of a key element -->
-         <key>MamDeviceUniqueld</key>
-         <string>%uuid%</string>
-         <!-- in the XML document. -->
-         <key>MdmDeviceWMacAddress</key>
-         <string>%wifiMacAddress%</string>
-         <!-- in the XML document. -->
-         <key>MamDeviceSerialNumber</key>
-         <string>%deviceSerialNumber%</string>
-     </dict>
- </plist>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+   <dict>
+      <!-- deviceSerialNumber to Serial Number Field -->
+      <key>MdmAssignedid</key>
+      <string>%csn%</string>
+      <!-- The plist then has a key-value pair for each configuration setting. -->
+      <key>Mdminstanceld</key>
+      <string>1180218</string>
+      <!-- The name of the key corresponds to the keyName attribute of a key element -->
+      <key>MamDeviceUniqueld</key>
+      <string>%uuid%</string>
+      <!-- in the XML document. -->
+      <key>MdmDeviceWMacAddress</key>
+      <string>%wifiMacAddress%</string>
+      <!-- in the XML document. -->
+      <key>MamDeviceSerialNumber</key>
+      <string>%deviceSerialNumber%</string>
+   </dict>
+</plist>
