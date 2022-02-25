@@ -7,34 +7,19 @@
          <key>ManagedAppConfigurationVersion</key>
          <string>2</string>
          <!-- deviceSerialNumber to Serial Number Field -->
-         <key>deviceSerialNumber</key>
-         <integer>%deviceSerialNumber%</integer>
+         <key>MdmAssignedid</key>
+         <string>%csn%</string>
          <!-- The plist then has a key-value pair for each configuration setting. -->
-         <key>noLoopbackOta</key>
-         <true/>
+         <key>Mdminstanceld</key>
+         <string>1180218</string>
          <!-- The name of the key corresponds to the keyName attribute of a key element -->
-         <key>disableUkmBounce</key>
-         <false/>
+         <key>MamDeviceUniqueld</key>
+         <string>%uuid%</string>
          <!-- in the XML document. -->
-         <key>enableManualBounce</key>
-         <false/>
+         <key>MdmDeviceWMacAddress</key>
+         <string>%wifiMacAddress%</string>
          <!-- in the XML document. -->
-         <key>requireUserPresence</key>
-         <false/>
-         <!-- in the XML document. -->
-         <key>usePersistentTokens</key>
-         <true/>
-         <!-- in the XML document. -->
-         <key>pivAuthenticationToken</key>
-         <true/>
-         <!-- in the XML document. -->
-         <key>digitalSignatureToken</key>
-         <false/>
-         <!-- in the XML document. -->
-         <key>decryptionToken</key>
-         <false/>
-         <!-- in the XML document. -->
-         <key>noFilterForTokens</key>
-         <false/>
+         <key>MamDeviceSerialNumber</key>
+         <string>%deviceSerialNumber%</string>
      </dict>
  </plist>
